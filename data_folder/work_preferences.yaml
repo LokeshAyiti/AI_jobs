@@ -26,10 +26,10 @@ date:
   24_hours: true
 
 positions:
-  - Software engineer
+  - Data engineer 
 
 locations:
-  - Germany
+  - USA
 
 apply_once_at_company: true
 
@@ -43,5 +43,11 @@ title_blacklist:
   - word1
   - word2
 
-location_blacklist:
-  - Brazil
+job_applicant_threshold:
+ min_applicants: 0
+ max_applicants: 30
+
+llm_model_type: ollama
+llm_model_: 'llama3.2-vision:latest'
+llm_apo_url: 'http://127.0.0.1:11434'
+
